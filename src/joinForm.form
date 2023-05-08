@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="13" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="232" max="-2" attributes="0"/>
+                          <Component id="lblMain_j" min="-2" pref="126" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="btnJoin_j" min="-2" pref="501" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lblNum_j" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <Component id="lblDept_j" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <Component id="lblMail_j" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <Component id="lblName_j" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <Component id="lblPass_j" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <Component id="lblId_j" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <Component id="lblPassCheck_j" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <Component id="lblHireDate_j" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtMail_j" alignment="1" pref="230" max="32767" attributes="0"/>
+                                      <Component id="txtName_j" alignment="1" pref="230" max="32767" attributes="0"/>
+                                      <Component id="txtPassCheck_j" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtPass_j" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="txtID_j" alignment="1" pref="230" max="32767" attributes="0"/>
+                                      <Component id="txtNum_j" alignment="1" pref="230" max="32767" attributes="0"/>
+                                      <Component id="combo_dept" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="hireDateChoose_j" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="btnCheck_j" min="-2" pref="120" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="62" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Component id="lblCheck_j" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="lblMain_j" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="49" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txtID_j" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="btnCheck_j" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                          <Component id="txtPass_j" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="txtPassCheck_j" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="lblCheck_j" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                          <Component id="txtName_j" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="txtMail_j" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="txtNum_j" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="combo_dept" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lblId_j" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                          <Component id="lblPass_j" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="lblPassCheck_j" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                          <Component id="lblName_j" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="lblMail_j" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                          <Component id="lblNum_j" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="lblDept_j" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblHireDate_j" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="hireDateChoose_j" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btnJoin_j" min="-2" pref="50" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblMain_j">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#xb9d1;&#xc740; &#xace0;&#xb515;" size="24" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="&#xd68c;&#xc6d0;&#xac00;&#xc785;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPassCheck_j">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#xad74;&#xb9bc;" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#xbe44;&#xbc00;&#xbc88;&#xd638;&#xd655;&#xc778;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JPasswordField" name="txtPassCheck_j">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#xad74;&#xb9bc;" size="12" style="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtPassCheck_jFocusLost"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtPassCheck_jKeyPressed"/>
+            <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtPassCheck_jKeyReleased"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblName_j">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#xad74;&#xb9bc;" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#xc131; &#xba85;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtName_j">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#xad74;&#xb9bc;" size="12" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtMail_j">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#xad74;&#xb9bc;" size="12" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblMail_j">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#xad74;&#xb9bc;" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#xc774;&#xba54;&#xc77c;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNum_j">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#xad74;&#xb9bc;" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#xc804;&#xd654; &#xbc88;&#xd638;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNum_j">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#xad74;&#xb9bc;" size="12" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDept_j">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#xad74;&#xb9bc;" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#xbd80;&#xc11c;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnJoin_j">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#xad74;&#xb9bc;" size="13" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#xd68c;&#xc6d0; &#xac00;&#xc785; &#xc644;&#xb8cc;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnJoin_jActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCheck_j">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#xad74;&#xb9bc;" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#xc911;&#xbcf5; &#xd655;&#xc778;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCheck_jActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JPasswordField" name="txtPass_j">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#xad74;&#xb9bc;" size="12" style="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtPass_jFocusLost"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtPass_jKeyPressed"/>
+            <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtPass_jKeyReleased"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtID_j">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#xad74;&#xb9bc;" size="12" style="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblId_j">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#xad74;&#xb9bc;" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#xc544;&#xc774;&#xb514;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPass_j">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#xad74;&#xb9bc;" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#xbe44;&#xbc00;&#xbc88;&#xd638;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="combo_dept">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblHireDate_j">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="&#xad74;&#xb9bc;" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#xc785;&#xc0ac;&#xc77c;"/>
+          </Properties>
+        </Component>
+        <Component class="com.toedter.calendar.JDateChooser" name="hireDateChoose_j">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblCheck_j">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
